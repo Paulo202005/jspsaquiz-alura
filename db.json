@@ -22,7 +22,34 @@
         "answer": 0,
         "alternatives": [
            "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "background: gradient(#e66465, #9198e5);",
+           "background: gradient-linear(#e66465, #9198e5);"
+        ]
+      },
+      {
+        "image": "https://miro.medium.com/max/1600/1*WqSgNm4EFnkABH9vk6tnQw.gif",
+        "title": "Qual destas regras de font não existe?",
+        "description": "Sobre dimensão e alinhamento",
+        "answer": 3,
+        "alternatives": [
+           "font-style;",
+           "Nenhuma das alternativas;",
+           "font-family;",
+           "font-transform;",
+           "font-weight;"
+        ]
+      },
+      {
+        "image": "https://cdn.dribbble.com/users/1247375/screenshots/3864382/building-webpage.gif",
+        "title": "É possivel adicionar imagens aos marcadores de uma lista?",
+        "description": "Conhecimento sobre imagens",
+        "answer": 1,
+        "alternatives": [
+           "Nenhuma das alternativas;",
+           "Sim, com a propriedade list-style-image;",
+           "Sim, com a propriedade list-style-background;",
+           "Sim, com a propriedade background;",
+           "Não, apenas símbolos;"
         ]
       }
     ],
