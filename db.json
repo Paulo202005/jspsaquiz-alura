@@ -1,70 +1,153 @@
 {
-    "bg": "https://articles.gamerheadquarters.com/images/top10/movies/10.jpg",
-    "title": "Quiz CSS da Alura",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
-    "questions": [
-      {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
-        "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
-        ]
-      },
-      {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
-        "answer": 0,
-        "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);",
-           "background: gradient-linear(#e66465, #9198e5);"
-        ]
-      },
-      {
-        "image": "https://miro.medium.com/max/1600/1*WqSgNm4EFnkABH9vk6tnQw.gif",
-        "title": "Qual destas regras de font não existe?",
-        "description": "Sobre dimensão e alinhamento",
-        "answer": 3,
-        "alternatives": [
-           "font-style;",
-           "Nenhuma das alternativas;",
-           "font-family;",
-           "font-transform;",
-           "font-weight;"
-        ]
-      },
-      {
-        "image": "https://cdn.dribbble.com/users/1247375/screenshots/3864382/building-webpage.gif",
-        "title": "É possivel adicionar imagens aos marcadores de uma lista?",
-        "description": "Conhecimento sobre imagens",
-        "answer": 1,
-        "alternatives": [
-           "Nenhuma das alternativas;",
-           "Sim, com a propriedade list-style-image;",
-           "Sim, com a propriedade list-style-background;",
-           "Sim, com a propriedade background;",
-           "Não, apenas símbolos;"
-        ]
-      }
-    ],
-    "external": [
-      ""
-    ],
-    "theme": {
-      "colors": {
-        "primary": "#0d47a1",
-        "secondary": "#29b6f6",
-        "mainBg": "#171B35",
-        "contrastText": "#FFFFFF",
-        "wrong": "#FF5722",
-        "success": "#4CAF50"
-      },
-      "borderRadius": "4px"
+  "bg": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/a-taca-copa-mundo-possui-ouro-18-k-5b4891c8d1d6d.jpg",
+  "title": "Quiz JavaScript #AluraQuiz",
+  "description": "Um quiz sobre Copas do Mundo de Futebol",
+  "questions": [
+    {
+      "image": "https://3.bp.blogspot.com/-lUF9mWe0jKY/WbB_Flf3QoI/AAAAAAAAA8c/CB64MCWkCcI4EtFcXODXTZiEYH724NdQACLcBGAs/s1600/copa6kjkk.gif",
+      "title": "Quantas seleções participaram da primeira Copa do Mundo?",
+      "description": "Pergunta da década de 30",
+      "answer": 2,
+      "alternatives": [
+        "11",
+        "20",
+        "13",
+        "16",
+        "18"
+      ]
+    },
+    {
+      "image": "https://thumbs.gfycat.com/UnsightlyKnobbyBarracuda-max-1mb.gif",
+      "title": "Em que ano o Brasil foi campeão pela primeira vez e quem era o técnico?",
+      "description": "Pergunta sobre o Brasil?",
+      "answer": 3,
+      "alternatives": [
+        "1962; Zagallo",
+        "1950; Aymoré Moreira",
+        "1958; Aymoré Moreira",
+        "1958; Vicente Feola",
+        "1962; Vicente Feola"
+      ]
+    },
+    {
+      "image": "https://multimidia.gazetadopovo.com.br/media/info/1970-tri-capita.gif",
+      "title": "Nos anos de 1962, 1966, 1970 que países sediaram a copa do mundo respectivamente?",
+      "description": "Pergunta sobre as sedes?",
+      "answer": 3,
+      "alternatives": [
+        "Brasil, Suíça e Argentina",
+        "México, Inglaterra e Alemanha",
+        "Suíça, Hungria e Espanha",
+        "Chile, Inglaterra e México",
+        "Chile, Inglaterra e Espanha"
+      ]
+    },
+    {
+      "image": "https://i.imgflip.com/2b68rj.gif",
+      "title": "Depois do Brasil, que participou de todas as copas, qual o país com mais participações?",
+      "description": "Perguntas sobre os participantes das copas?",
+      "answer": 0,
+      "alternatives": [
+        "Alemanha",
+        "França",
+        "Argentina",
+        "Itália",
+        "Inglaterra"
+      ]
+    },
+    {
+      "image": "https://i.pinimg.com/originals/7c/51/7c/7c517cf7e2bc4291b0acee02c84bf95c.gif",
+      "title": "Na copa de 2002 o Brasil foi penta, quais foram respectivamente os adversários do Brasil nas oitavas, quartas, semi-final e final?",
+      "description": "Perguntas sobre títulos do Brasil?",
+      "answer": 1,
+      "alternatives": [
+        "Inglaterra, Camarões, Bélgica e Alemanha",
+        "Bélgica, Inglaterra, Turquia e Alemanha",
+        "Uruguai, Suécia, Japão e Alemanha",
+        "Japão, Bélgica, Turquia e Alemanha",
+        "Uruguai, Bélgica, Inglaterra e Alemanha"
+      ]
+    },
+    {
+      "image": "https://multimidia.gazetadopovo.com.br/media/info/1958-campeao-pele.gif",
+      "title": "Quem foi o artilheiro da copa do mundo de 2006 e com quantos gols?",
+      "description": "Perguntas sobre artilharia?",
+      "answer": 4,
+      "alternatives": [
+        "O argentino Lionel Messi com 5 gols",
+        "O italiano Totti com 5 gols",
+        "O francês Zidane com 5 gols",
+        "O brasileiro Kaká com 5 gols",
+        "O alemão Close com 5 gols"
+      ]
+    },
+    {
+      "image": "https://lh5.googleusercontent.com/-yPEfeWdq-iRfQwgAQ6tq_tADHSU4QvKaqlMtoUT8jfwGgXg1YKOLktIHzkRBnylhfNGqeVaPeaPP8tL37bnLHfk_m0FnZoJ9YmbB9Ew6kQZ62eAwFEWdN2IKQ-BOzkGB7GO2BUj",
+      "title": "Qual o jogador mais novo que jogou na Copa do Mundo?",
+      "description": "Perguntas sobre idade de jogadores?",
+      "answer": 1,
+      "alternatives": [
+        "Messi",
+        "Normam Whiteside",
+        "Tomas Miller",
+        "Pelé",
+        "Samuel Eto'o"
+      ]
+    },
+    {
+      "image": "https://img.ibxk.com.br/2017/06/14/14170634011270.gif",
+      "title": "Quando foi a primeira vez que os cartões vermelhos e amarelos foram utilizados em uma Copa do Mundo?",
+      "description": "Perguntas sobre cartões?",
+      "answer": 3,
+      "alternatives": [
+        "1950",
+        "1966",
+        "1962",
+        "1970",
+        "1954"
+      ]
+    },
+    {
+      "image": "https://bonfimstudio.com/wp-content/uploads/2018/03/russia_tourism_logo_variations.gif",
+      "title": "Qual animal foi escolhido como mascote na Copa do Mundo de 2018 da Rússia?",
+      "description": "Perguntas sobre mascotes?",
+      "answer": 2,
+      "alternatives": [
+        "Urso",
+        "Macaco",
+        "Lobo",
+        "Raposa",
+        "Leopardo"
+      ]
+    },
+    {
+      "image": "https://thumbs.gfycat.com/ShamefulIckyJapanesebeetle-size_restricted.gif",
+      "title": "Qual seleção chegou em mais finais de Copas do Mundo e nunca venceu?",
+      "description": "Perguntas sobre finais da copa?",
+      "answer": 2,
+      "alternatives": [
+        "Rússia",
+        "Portugal",
+        "Holanda",
+        "Hungria",
+        "Tchecoslováquia"
+      ]
     }
+  ],
+  "external": [
+    "https://democra-quiz.lfrigodesouza.vercel.app/",
+    "https://lolzinquiz-git-main.bernardooficial.vercel.app/",
+    "https://scrumquiz.robsonamendonca.vercel.app/"
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#222222",
+      "secondary": "#e89c3f",
+      "mainBg": "#213f4e",
+      "contrastText": "#FFFFFF",
+      "wrong": "#FF5722",
+      "success": "#4CAF50"
+    },
+    "borderRadius": "4px"
   }
+}
