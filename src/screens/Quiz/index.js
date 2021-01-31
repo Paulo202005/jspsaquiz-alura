@@ -48,6 +48,10 @@ function ResultWidget({ results }) {
           ))}
         </ul>
       </Widget.Content>
+      <Button type="submit" disabled="true">
+        <BackLinkArrow href="/" />
+        Finalizar
+      </Button>
     </Widget>
   );
 }

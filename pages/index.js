@@ -66,13 +66,13 @@ export default function Home() {
             <form onSubmit={function (infosDoEvento) {
               infosDoEvento.preventDefault();
               router.push(`/quiz?name=${name}`);
-              console.log('Fazendo uma submissão por meio do react');
+              // console.log('Fazendo uma submissão por meio do react');
             }}
             >
               <Input
                 name="nomeDoUsuario"
                 onChange={(infosDoEvento) => setName(infosDoEvento.target.value)}
-                placeholder="Diz ai seu nome"
+                placeholder="Digitar seu nome"
                 value={name}
               />
               <Button type="submit" disabled={name.length === 0}>
